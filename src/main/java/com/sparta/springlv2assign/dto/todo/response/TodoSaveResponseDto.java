@@ -1,15 +1,15 @@
-package com.sparta.springlv2assign.dto;
+package com.sparta.springlv2assign.dto.todo.response;
 
 import lombok.Getter;
 
 @Getter
-public class TodoUpdateRequestDto {
+public class TodoSaveResponseDto {
 
     private final Long id;
     private final String title;
     private final String contents;
 
-    public TodoUpdateRequestDto(Long id, String title, String contents) {
+    public TodoSaveResponseDto(Long id, String title, String contents) {
         this.id = id;
         this.title = title;
         this.contents = contents;

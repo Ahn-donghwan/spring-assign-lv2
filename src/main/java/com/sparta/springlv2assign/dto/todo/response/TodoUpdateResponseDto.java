@@ -1,4 +1,4 @@
-package com.sparta.springlv2assign.dto;
+package com.sparta.springlv2assign.dto.todo.response;
 
 import lombok.Getter;
 

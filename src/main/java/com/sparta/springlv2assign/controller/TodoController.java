@@ -1,7 +1,10 @@
 package com.sparta.springlv2assign.controller;
 
-import com.sparta.springlv2assign.dto.*;
-import com.sparta.springlv2assign.entity.Todo;
+import com.sparta.springlv2assign.dto.todo.request.TodoSaveRequestDto;
+import com.sparta.springlv2assign.dto.todo.request.TodoUpdateRequestDto;
+import com.sparta.springlv2assign.dto.todo.response.TodoSaveResponseDto;
+import com.sparta.springlv2assign.dto.todo.response.TodoSimpleResponseDto;
+import com.sparta.springlv2assign.dto.todo.response.TodoUpdateResponseDto;
 import com.sparta.springlv2assign.service.TodoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
